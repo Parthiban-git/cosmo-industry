@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="main">
+         <h1>COSMO INDUSTRIES</h1>
+         <form id="myForm" onsubmit="sub(event)">
+            <div class="container">
+                <h2 >Employee Details</h2>
+                <div class="form-row">
+                     <label for="fname">Name*</label>
+                     <input type="text" id="name" name="fname" placeholder="name" required>
+                     <label for="department" >Department*</label>
+                     <input type="text" id="department" name="department" placeholder="department" required>
+                </div>
+  
+              <div class="form-row">
+                  <label for="designation" >Designation*</label>
+                  <input type="text" id="designation" name="designation" placeholder="designation" required>
+                  <label for="date"> Date*</label>
+                  <input type="date" id="date" name="date" required>
+             </div>
+  
+             <div class="form-row">
+                   <label for="emailid">Email ID*</label>
+                   <input type="email" id="email" name="emailid" required>
+                   <label for="contact">contact*</label>
+                   <input type="number" id="contact" name="number" maxlength="10" minlength="10" required/>
+             </div>
+  
+             <div>
+                 <h2>Child Details</h2>
+             </div>
+  
+             <div class="form-row">
+                      <label for="cname">Name*</label>
+                      <input type="text" id="cname" name="cname" placeholder="child name" required>
+                      <label for="college" >Department*</label>
+                      <input type="text" id="college" name="college" placeholder="college" required>
+             </div>
+  
+             <div class="form-row">
+                      <label for="cname">Name*</label>
+                      <input type="text" id="cname" name="cname" placeholder="child name" required>
+                      <label for="college" >Department*</label>
+                      <input type="text" id="college" name="college" placeholder="college" required>
+              </div>
+  
+              <div class="form-row">
+                  <input type="radio" id="radio" name="radio" value="avail">
+                  <label for="radio">availed</label>
+  
+                  <input type="radio" id="radio" name="radio" value="not avail">
+                  <label for="radio">not availed</label>
+  
+                  <select name="semno" id="semno" required placeholder="sem no">
+                      <option value="one">1</option>
+                      <option value="two">2</option>
+                      <option value="three">3</option >
+                      <option value="three">4</option >
+                      <option value="three">5</option >
+                      <option value="three">6</option >
+                      <option value="three">7</option >
+                      <option value="three">8</option >
+                  </select>
+              </div>
+  
+              <div class="form-row">
+                  <input type="checkbox" id="check" name="check" value="bonafide">
+                  <label for="check">Bonafide</label>
+                  <input type="checkbox" id="check" name="check" value="mark sheet">
+                  <label for="check">marksheet</label>
+              </div>
+  
+              <div id="form-submit" style="padding: 3px;">
+                  <h2><button type="submit" id="submit-btn" style="background-color: red">submit</button></h2>
+              </div>
+  
+           </div>
+         </form>
+
+    </div>
+</body>
+</html>
