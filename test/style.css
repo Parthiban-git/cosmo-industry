@@ -1,0 +1,30 @@
+#parent{
+    position: relative;
+    background-image: url(industry.jpg);
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+#employeedetail{
+    position: absolute;
+    left: 300px;
+    color: aliceblue;
+}
+#entrybox{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    opacity: 0.5;
+    top: 50px;
+    left:300px;
+
+}
+label{
+    color: white;
+}
+div{
+    padding: 5px;
+}
+
+
